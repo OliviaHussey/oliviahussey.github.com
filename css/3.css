@@ -1,0 +1,73 @@
+body,div,ul,li{
+	padding: 0;
+	margin:0px;
+}
+#d1{
+	width:400px;
+	height:40px;
+	background-color:#FFFFCC
+}
+#d1 ul{
+	width: 400px;
+	height: 40px;
+}
+#d1 ul li{
+	float: left;
+	width: 80px;
+	list-style: none;
+	line-height:20px;
+	text-align:center; 
+} 
+#d2
+{
+	position:absolute;
+	top:40px;/*需要与d1相关*/
+	left:0px;/*右对齐绝对定位*/
+	width:400px;
+	background-color:#ccffff;
+	height:70px;
+}
+#d2 table{
+	width: 360px;
+	height: 50px;
+	background-color: black;
+	
+}
+
+#d3
+{
+	position:absolute;
+	top:110px;/*需要与d1相关*/
+	left:0px;/*右对齐绝对定位*/
+	width:400px;
+	background-color:#FFFFCC;
+	height:110px;
+}
+
+#d4
+{
+	position:absolute;
+	top:220px;/*需要与d1相关*/
+	left:0px;/*右对齐绝对定位*/
+	width:400px;
+	background-color:#ccffff;
+	height:60px;
+
+}
+#d5
+{
+	position:absolute;
+	top:280px;/*需要与d1相关*/
+	left:0px;/*右对齐绝对定位*/
+	width:400px;
+	background-color:#FFFFCC;
+	height:170px;
+}
+
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-04 14:51:22
+ * @version $Id$
+ */
