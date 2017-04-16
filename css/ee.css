@@ -2,135 +2,168 @@ body{
 	margin:0;
 	float: center;
 }
-
 .box{
-	width: 400px;
-	height: 690px;
-	border: 2px solid #E0E0E0;
+	width: 290px;
+	height: 503px;
+	border: 1px solid #E0E0E0;
 }
 .d1{
-	width: 400px;
-	height: 30px;
-	/*border-bottom: 2px solid #E0E0E0;*/
+	width: 290px;
+	height: 23px;
 }
 .d2{
-	width: 400px;
-	height: 110px;
-	border-bottom: 2px solid #E0E0E0;
+	width: 288px;
+	height: 73px;
+	border-bottom: 1px solid #E0E0E0;
 }
 .d3{
-	width: 400px;
-	height: 150px;
-	border-bottom: 2px solid #E0E0E0;
+	width: 288px;
+	height: 118px;
+	border-bottom: 1px solid #E0E0E0;
 }
 
 .d4{
-	width: 400px;
-	height: 50px;
-	border-bottom: 2px solid #E0E0E0;
+	width: 288px;
+	height: 43px;
+	border-bottom: 1px solid #E0E0E0;
 }
 .d5{
-	width: 400px;
-	height:300px;
+	width: 288px;
+	height:223px;
 	/*border-bottom: 2px solid #E0E0E0;*/
 }
 
 .title{
 	float: left;
 	text-align: center;
-	width: 80px;
-	height: 30px;
-	background-color: lightgrey;
-	text-decoration:none；
-}
-
-.menu{
-	float: left;
-	text-align: center;
-	width: 80px;
-	height: 30px;
+	width: 58px;
+	height: 25px;
+	font-size: 10px;
 	background-color: lightgrey;
 	list-style-type:none;
 	text-decoration:none；
 }
+.menu{
+	margin-top: 3px;
+}
 
-.menu:hover{
-	font-weight:200;
+.title:hover{
+	font-weight:100px;
 	background-color: white;
 	text-decoration:blink;
 }
 
 .texttype1{
-	width: 380px;
-	margin-top: 20px;
-	height: 28px;
-	border:2px solid grey;
-	margin-left:6px;
+	width: 258px;
+	margin-top: 10px;
+	height: 20px;
+	border:1px solid grey;
+	margin-left:10px;
 }
 
 .userimg{
 	float: left;
-	margin-top: 8px;
-	margin-left: 10px;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 3px;
 	
+}
+
+
+#c4{
+	width: 90px;
+	height: 25px;
+	font-size: 14px;
+	line-height: 25px;
+	background-color: #ff4400;
+	margin: 20px 10px 10px 10px;
+	position: absolute;
+	top: 180px;
+	text-align: center;
+	color: white;
+}
+#c5{
+	width: 75px;
+	height: 25px;
+	background-color: #ff4400;
+	margin: 10px;
+	position: absolute;
+	left: 110px;
+	top: 190px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	color: white;
+}
+#c6{
+	width: 75px;
+	height: 25px;
+	background-color: #ff4400;
+	margin: 10px;
+	position: absolute;
+	left: 195px;
+	top: 190px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+	color: white;
 }
 
 .buttonimg{
 	float: left;
     height: 25px;
 	text-align: center;
-	margin: 20px 0 0 35px;
-
 }
 
 .texttype2{
-	margin: 20px 0 0 80px;
-	width: 75%;
+	margin: 10px 0 0 80px;
+	width: 65%;
 	bottom: 8px;
-	height: 28px;
-	border:2px solid grey;
+	height: 20px;
+	border:1px solid grey;
 }
 
 .texttype3{
-	width: 370px;
-	height: 28px;
-	border:2px solid grey;
+	width: 258px;
+	height: 20px;
+	border:1px solid grey;
 	float: left;
 	text-align: center;
 	margin: 9px 0 0 10.5px;
 }
+
 .bigbox{
 	float: left;
-	width: 158px;
-	height: 222px;
+	width: 114px;/*290/5=58*/
+	height: 148px;/*225/3=75*/
 	border-bottom: 2px solid lightgrey;
     border-right: 2px solid lightgrey;	
 }
 
 .smallbox{
 	float: left;
-	width: 78px;
-	height: 110px;
+	width: 56px;
+	height: 73px;
 	border-bottom: 2px solid lightgrey;
     border-right: 2px solid lightgrey;	
 }
 .smallbox1{
 	float: left;
-	width: 78px;
-	height: 110px;
+	width: 56px;
+	height: 73px;
 	border-bottom: 2px solid lightgrey;
 }
 
 .smallbox2{
 	float: left;
-	width: 78px;
-	height:80px;
+	width: 56px;
+	height:73px;
 	border-right: 2px solid lightgrey;	
 }
 .smallbox3{
 	float: left;
-	width: 78px;
-	height:80px;	
+	width: 56px;
+	height:73px;	
 }
 
 .text{
@@ -147,6 +180,7 @@ body{
 	text-align: center;
 	margin-bottom:5%;
     font-size: .8em;
+    font-size: 8px;
 }
 
 
@@ -160,7 +194,7 @@ body{
 .img{
 	margin-top: 20%;
     width: 50%;
-    height: 50%;
+    height: 40%;
     margin-left: 25%;
     margin-right: auto;
 }

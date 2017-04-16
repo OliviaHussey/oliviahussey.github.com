@@ -1,0 +1,67 @@
+body{
+	margin:0px;
+}
+
+.d1{
+	width: 800px;
+	height: 120px;
+	margin:20px 20px 20px 20px;
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.d1-u1{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.d1-u2{
+	width: 80px;
+	height: 80px;
+	margin-right: 20px;
+	margin-left: 160px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.d2{
+	width: 800px;
+	height: 420px;
+	margin:20px 20px 20px 20px;
+	border: 1px solid black;
+}
+
+.d2-u1{
+	width: 200px;
+	height: 300px;
+	margin:20px 20px 20px 20px;
+	border: 1px solid black;
+
+}
+
+.d2-u2{
+	width: 
+}
+
+.d2-u2-m1{
+	width: 50px;
+	height: 50px;
+	margin: 20px 10px 40px 10px;
+	border: 1px solid black;
+	display: flex;
+
+}
+
+
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2017-04-07 08:27:28
+ * @version $Id$
+ */
