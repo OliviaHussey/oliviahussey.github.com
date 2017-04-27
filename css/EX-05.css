@@ -1,7 +1,296 @@
-@charset "UTF-8";
-/**
- * 
- * @authors Your Name (you@example.org)
- * @date    2017-04-21 08:13:09
- * @version $Id$
- */
+
+.ui-top-menu {
+    display: flex;
+}
+
+.ui-top-menu-road {
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background: #1B88C4;
+}
+
+.ui-top-menu-time {
+    background: #FF4002;
+    margin-left: 6px;
+    line-height: 20px;
+    width: 20px;
+    height: 19px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.ui-top-blackboard {
+    color: #CF0000;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border-top: 4px solid #1B88C4;
+    border-left: 1px solid #CBCBCB;
+    border-bottom:1px solid #CBCBCB;
+    border-right: 1px solid #CBCBCB;
+    width: 683px;
+    height: 50px;
+    background: #F3F4F4;
+    font-size: 13px;
+}
+
+.ui-top-blackboard-row1 {
+    margin-left: 8px;
+}
+
+.ui-top-blackboard-row2 {
+    margin:-6px 0 0 6px;
+}
+
+.ui-top-blackboard-row2-second {
+    color: #000;
+}
+
+.ui-top-blackboard-row2-long {
+    color: #000000;
+}
+
+
+.ui-top-blackboard-row1-price:before {
+    font-weight: 200;
+    content: "総額 ";
+    color: grey;
+    
+}
+
+.ui-top-blackboard-row2-time:before {
+    font-weight: 200;
+    content: "所要時間 ";
+    color: grey;
+   
+}
+
+.ui-top-blackboard-row2-second:before {
+    font-weight: 200;
+    content: "乘车时间 ";
+    color: grey;
+    
+}
+
+.ui-top-blackboard-row2-kai:before {
+    font-weight: 200;
+    content: "乗換 ";
+    color: grey;
+}
+    
+
+ .ui-top-blackboard-row2-long:before {
+    font-weight: 200;
+    content: "距离 ";
+    color: grey;
+   
+}
+.ui-top-blackboard span {
+    margin:0 10px 0 0;
+}
+
+.ui-top-bar a {
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+.ui-top-bar {
+    background-color: #FFFBDE;
+    border: 0.5px solid lightgrey;
+    display: flex;
+    justify-content: flex-end;
+    width: 683px;
+    height: 27px;
+   
+}
+
+.ui-body-menu {
+    background: #CEDCE8;
+    display: flex;
+    align-items: center;
+    width: 685px;
+    height: 20px;
+}
+
+.ui-body-menu-col {
+    line-height: 15px;
+    color: #607A90;
+    font-size: 11px;
+    text-align: center;
+}
+
+.menu-road {
+    border-top: 3px solid white;
+    width: 404px;
+}
+.menu-pos {
+    width: 64px;
+    border-top:3px solid white;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+.menu-spend {
+    width: 69px;
+     border-top:3px solid white;
+    border-right: 1px solid white;
+}
+.menu-fix {
+    width: 80px;
+    border-top: 3px solid white;
+    border-right: 1px solid white;
+}
+.menu-dis {
+     border-top:3px solid white;
+    width: 64px;
+}
+
+
+.ui-body-content {
+    background: #F2F2F2;
+    border: 1px solid lightgrey;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 683px;
+    height: 40px;
+}
+
+.ui-body-content-station {
+    display: flex;
+    width: 400px;
+    font-size: 16px;
+}
+
+.imgcloud {
+    background-image: url("../img/5/cloud.jpg");
+    margin-left: 75px;
+    width: 20px;
+    height: 20px;
+}
+
+.square {
+    background:#26A0D9;
+    border: 1px solid white;
+    margin: 0 4px 0 2px;
+    width: 12px;
+    height: 12px;
+}
+
+.square2 {
+    margin-left: 100px;
+    margin-right: 5px;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border: 2px solid #1F94D0;
+}
+
+.ui-body-content-line{
+    text-align: center;
+}
+
+.ui-body-content-choice a {
+    margin-left: 5px;
+}
+
+.ui-body-content-choice {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: auto;
+    margin-right: 3px;
+}
+
+.ui-body-row {
+    height: 45px;
+    display: flex;
+}
+
+.body-row2 {
+    height: 34px;
+}
+.ui-body-row-part-stripe {
+    border-left: 5px solid #96C7D8;
+    height: 250%;
+}
+.ui-body-row-part {
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    display: flex;
+   
+}
+
+.ui-body-row-part-time {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+}
+
+.ui-body-row-part-bus a {
+    color: #0069A3;
+}
+
+.ui-body-row-part-bus {
+    display: flex;
+    align-items: center;
+    flex: auto;
+}
+
+#box{
+   border-top: 1px solid white;
+}
+
+#imgnew {
+    margin-left: 5px;
+    width: 50px;
+    height: 25px;
+    background-image: url("../img/5/car.jpg");
+}
+
+#imgJR{
+    margin-left: 5px;
+    width: 50px;
+    height: 25px;
+    background-image: url("../img/5/bus.jpg");
+}
+
+.part1 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 400px;
+}
+
+.part2 {
+    width: 66px;
+    border-right: 1px solid #CDCDCD;
+    border-left: 1px solid #CDCDCD;
+}
+.part3 {
+    border-right: 1px solid #CDCDCD;
+    width: 69px;
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.part4 {
+    text-align: center;
+    width: 80px;
+    border-right: 1px solid #CDCDCD;
+}
+
+.part5 {
+    height: 39px;
+    width: 64px;
+}
+
+

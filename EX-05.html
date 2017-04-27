@@ -1,80 +1,144 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>EX-05</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
-<link href="css/EX-05.css" rel="stylesheet">
-</head>
-<body>
-    <div class="ui-row">
-    	<div class="ui-row-button">经路1</div>
-    	<div class="ui-row-sign">早</div>
-    </div>
-    <div class="ui-row2">
-    	<p>08:43飛 → 09:43着   総額 6,560円</p>
-    	<p>所要时间 1时间0分   乘车时间 54分   换乘 1回 距离 190.4km</p>
-    </div>
-    <div class="ui-row3">
-    	<p>打印 详单</p>
-    </div>
-    <div class="ui-row4">
-    	<table class="ui-row4-table">
-    		<tr class="ui-row4-table-row1">
-    			<td rowspan="2">经路</td>
-    			<td>乘车位置</td>
-    			<td>费用</td>
-    			<td>指定席/费用</td>
-    			<td>距离</td>
-    		</tr>
-    		<tr>
-    			<td rowspan="2">名古屋</td>
-    			<td></td>
-    			<td rowspan="3"></td>
-    		</tr>
-    		<tr>
-    			<td>
-    			<p>08：43-09：33</p>
-    			<p>50分</p>
-    			</td>
-    			<td>
-    			<p> xxxxxxx(新大坂行)</p>
-    			</td>
-    			<td>
-    				<p></p>
-    			</td>
-    			<td>
-    				<p>3350円</p>
-    			</td>
-    			<td>
-    			<p>指定席</p>
-    			<p>3210円</p>
-    			</td>
-    			<td>
-    			<p>186.6km</p>
-    			</td>
-    		</tr>
-    		<tr>
-    		    <td rowspan="2">新大阪</td>
-    			<td></td>
-    			<td rowspan="3"></td>
-    		</tr>
-    		<tr>
-    			<td></td>
-    			<td></td>
-    			<td></td>
-    			<td></td>
-    			<td></td>
-    			<td></td>
-    		</tr>
-    		<tr>
-    			<td rowspan="2">大阪</td>
-    			<td></td>
-    			<td rowspan="3"></td>
-    		</tr>
-    	</table>
-    </div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <title>EX-05</title>
+        <link href="css/EX-05.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="ui-top">
+            <div class="ui-top-menu">
+                <div class="ui-top-menu-road"><b>经路1<b></div>
+                <div class="ui-top-menu-time">早</div>
+            </div>
+
+            <div class="ui-top-blackboard">
+                <div class="ui-top-blackboard-row1">
+                    <span class="ui-top-blackboard-row1-time">08:43発→09:43着</span>
+                    <span class="ui-top-blackboard-row1-price">6,560円</span>
+                </div>
+
+                <div class="ui-top-blackboard-row2">
+                    <span class="ui-top-blackboard-row2-time">1時間0分</span>
+                    <span class="ui-top-blackboard-row2-second">54分</span>
+                    <span class="ui-top-blackboard-row2-kai">1回</span>
+                    <span class="ui-top-blackboard-row2-long">190.4km</span>
+                </div>
+            </div>
+
+
+        <div class="ui-top-bar">
+               <div>
+                     <i class="fa fa-file-text-o"></i>
+                     <a href="" class="fn-margin-short">详单</a>
+                </div>              
+                <div>   
+                    <i class="fa fa-print"></i>                  
+                    <a href="" class="fn-margin-short">打印</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui-body">
+            <div class="ui-body-menu">
+                <div class="ui-body-menu-col menu-road">经路</div>
+                <div class="ui-body-menu-col menu-pos">乘车位置</div>
+                <div class="ui-body-menu-col menu-spend">费用</div>
+                <div class="ui-body-menu-col menu-fix">指定席/费用</div>
+                <div class="ui-body-menu-col menu-dis">距离</div>
+            </div>
+
+
+            <div class="ui-body-content" id="box">
+                <div class="ui-body-content-station">
+                    <i class="imgcloud"></i>
+                    <span class="square"></span>
+                    <span>名古屋</span>
+                </div>
+
+            <div class="ui-body-content-line">17番線発</div>
+                <div class="ui-body-content-choice">
+                   <a href="#">时刻表 </a>
+                   <a href="#">车站图 </a>
+                   <a href="#">线路图 </a>
+                   <a href=#">地图</a>
+                </div>
+            </div>
+
+            <div class="ui-body-row">
+                <div class="ui-body-row-part part1">
+                    <div class="ui-body-row-part-time">
+                        <div><b>08:43-09:33</b><br>50分</div>
+                    </div>
+                    <div class="ui-body-row-part-stripe"></div>
+                    <div class="ui-body-row-part-bus">
+                        <i id="imgnew"></i>
+                        <a href="">のぞみ203号(新大阪行)</a>
+                    </div>
+                </div>
+
+                <div class="ui-body-row-part part2"></div>
+                <div class="ui-body-row-part part3">3,350円</div>
+                <div class="ui-body-row-part part4">
+                <div>指定席<br>3,210円</div></div>
+                <div class="ui-body-row-part part5">186.6km</div>
+            </div>
+
+
+            <div class="ui-body-content">
+                <div class="ui-body-content-station">
+                    <span class="square2"></span>
+                    <span>新大阪</span>
+                </div>
+                <div class="ui-body-content-line">23番線着<br />16番線発</div>
+                <div class="ui-body-content-choice">
+                   <a href="#">时刻表 </a>
+                   <a href="#">车站图 </a>
+                   <a href="#">线路图 </a>
+                   <a href="#">地图</a>
+                </div>
+            </div>
+
+
+            <div class="ui-body-row body-row2">
+                <div class="ui-body-row-part part1">
+                    <div class="ui-body-row-part-time">
+                        <div><b>09:39-09:43</b><br>4分</div>
+                    </div>
+                    <div class="ui-body-row-part-stripe"></div>
+                    <div class="ui-body-row-part-bus">
+                        <i id="imgJR"></i>
+                        <a href="#">JR京都線新快速(姬路行)</a>
+                    </div>
+                </div>
+
+                <div class="ui-body-row-part part2"></div>
+                <div class="ui-body-row-part part3">↓</div>
+                <div class="ui-body-row-part part4"></div>
+                <div class="ui-body-row-part part5">3.8km</div>
+            </div>
+
+
+            <div class="ui-body-content">
+                <div class="ui-body-content-station">
+                    <i class="imgcloud"></i>
+                    <span class="square"></span>
+                    <span>大阪</span>
+                </div>
+
+                <div class="ui-body-content-line">5番線着</div>
+                <div class="ui-body-content-choice">
+                   <a href="#">时刻表 </a>
+                   <a href="#">车站图 </a>
+                   <a href="#">线路图 </a>
+                   <a href="#">地图</a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </body>
 </html>
