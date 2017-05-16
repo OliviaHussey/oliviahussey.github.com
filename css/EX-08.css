@@ -1,0 +1,70 @@
+
+#myMap1{
+	width: 900px;
+	height: 650px;
+
+}
+
+#myMap2{
+	margin-top: 20px;
+	width: 900px;
+	height: 670px;
+}
+
+#results{
+	position: absolute;
+	top: 680px;
+	left: 920px;
+	width: 400px;
+	height: 650px;
+	}
+
+#myMap3
+{
+	width: 900px;
+	height: 670px;
+	position: absolute;
+	margin-top: 50px;
+}
+
+.ui-info {
+    width: 300px;
+}
+.ui-info-left, .ui-info-right {
+    height: 70px;
+}
+.ui-info-right {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    height: 60px;
+}
+.fa-star {
+    color: #FF9000;
+}
+.ui-info-score, .ui-info-review {
+	margin-left: 20px;
+    font-size: 20px;
+    color: #808080;
+}
+
+.ui-info-more {
+    width: 160px;
+    height: 58px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    line-height: 44px;
+    background: #FF9000;
+    border-radius: 5px;
+    cursor: pointer;
+    align-self: flex-end;
+
+
+}
+#img{
+	margin-left: 15px;
+	margin-top: 10px;
+	width: 280px;
+	height: 150px;
+}
